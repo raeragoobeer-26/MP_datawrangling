@@ -1,0 +1,42 @@
+---
+title: "MPQuarto"
+format: gfm
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+Installing necessary packages
+
+```{r}
+install.packages("tidyverse")
+install.packages("palmerpenguins")
+gitcreds::gitcreds_set() # had to generate new token to allow comm between R and Git
+```
+
+calling necessary libraries with functions need to use
+
+```{r}
+library(tidyverse)
+library(readxl)
+excel_sheets("globalchange-project.xlsx")
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+Reading in (messy) data then tidying up
+
+```{r}
+data <- read_xlsx("globalchange-project.xlsx")
+data
+data2 <- read_xlsx("globalchange-project.xlsx", range = "B1:M22")
+
+data3 <- bind_rows(read_xlsx("globalchange-project.xlsx", range = "B1:M11"),
+          read_xlsx("globalchange-project.xlsx", range = "B15:M22"))
+```

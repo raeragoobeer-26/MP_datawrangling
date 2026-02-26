@@ -4,4 +4,4 @@ install.packages("sf")
 install.packages("mapview")
 install.packages("leafpop")
 install.packages("rinat")
-intall.packages("readr"
+intall.packages("readr")

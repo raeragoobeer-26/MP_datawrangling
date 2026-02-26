@@ -6,6 +6,21 @@ editor: visual
 
 ## Quarto
 
+Data was obtained from previous year's project with permission from Professor William Froneman on Microplastics in different sediment-dwelling invertebrates in the Galpin salt marsh, South Africa. The study focused on trait based analyses of microplastic consumption to determine if feeding type (grazer, deposit feeder, filter feeder, carnivore), microplastic ratio types (fibre, particles) and depth (water column, sediment surface, 10cm and 20cm depth) affected microplastic consumption.
+
+Feeding type characterised specimens observed, below is a table of the species used per feeding type:
+
+| Species | Common name | Localisation | Feeding mode | Sample size |
+|----|----|----|----|----|
+| *Nassarius kraussianus* | Tick shell | epifauna | Grazer | 30 |
+| *Nucella dubia* | whelk | epifauna | Carnivore | 30 |
+| *Kraussillichirus kraussi* | Sand prawn | infauna | Deposit feeder | 30 |
+| *Marphysa eliteuni* | Redbait/ bloodworm | infauna | Filter feeder | 30 |
+
+Explanation of repo on main repo page under README: MP_datawrangling
+
+Code is found below and the figure is at the bottom as well:
+
 Installing necessary packages
 
 ```{r}

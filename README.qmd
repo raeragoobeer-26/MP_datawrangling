@@ -19,6 +19,8 @@ Feeding type characterised specimens observed, below is a table of the species u
 
 Explanation of repo on main repo page under README: MP_datawrangling
 
+Binder badge: \[\![Binder\](https://mybinder.org/badge_logo.svg)\](https://mybinder.org/v2/gh/raeragoobeer-26/MP_datawrangling/HEAD)
+
 Code is found below and the figure is at the bottom as well:
 
 Installing necessary packages
